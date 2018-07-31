@@ -1,0 +1,3432 @@
+/*
+Template: cesis
+Theme Name: cesis child theme
+Theme URI: http://cesis.co
+Description: A superflexible and responsive Business Theme by Tranmautritam team - Update notifications available on twitter and facebook: Follow me on twitter - Join the Facebook Group A theme by Tranmautritam Team.
+Version: 1.0
+Author: Tranmautritam Team
+Author URI: http://themeforest.net/user/tranmautritam?ref=tranmautritam
+License: Themeforest Split Licence
+License URI: -
+*/
+
+/************************************************************************************
+
+Put your custom CSS below this block :)
+
+*************************************************************************************/
+
+.find-training>.cesis_icon_paragraph_heading .main_font {
+  position: relative;
+  bottom: -7px;
+}
+
+html {
+  font-family: roboto !important;
+}
+
+/* move the stupid admin menu and copy page icon */
+
+#wpadminbar #wp-admin-bar-my-account>.ab-item {
+  position: relative;
+  bottom: -53px;
+  left: -70px;
+  display: none;
+}
+
+#wpadminbar #wp-admin-bar-new_draft>.ab-item {
+  padding-right: 0;
+  position: static;
+  display: none
+}
+
+#wp-admin-bar-new_draft {
+  position: relative;
+  right: -70px;
+}
+
+/* end move the stupid admin menu and copy page icon */
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #1A1A1E;
+}
+
+p {
+  font-size: 19px !important;
+}
+
+h1 {
+  font-size: 32px !important;
+}
+
+h2 {
+  font-size: 26px !important;
+}
+
+h3 {
+  font-size: 22px !important;
+}
+
+h4 {
+  font-size: 18px !important;
+}
+
+body {
+  font-size: 19px !important;
+}
+
+caption {
+  font-size: 16px !important;
+}
+
+button {
+  font-size: 18px !important;
+}
+
+.toggleOff {
+  visibility: hidden;
+}
+
+.toggleOn {
+  visibility: visible;
+}
+
+/* .cesis_transparent_header .header_overlay {
+  position: inherit;
+} */
+
+.cesis_col_shadow .wpb_wrapper {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.header_overlay .tt-header-additional.vertical_additional {
+  padding: 10px 0 0 0;
+}
+
+.top-header {
+  background-color: #4E74FF !important;
+}
+
+.header_logo {
+  max-width: 98%;
+}
+
+.header_main {
+  background: #4E74FF !important;
+}
+
+@media only screen and (max-width: 978px) {
+  .cesis_mobile_menu_switch .lines {
+    position: relative;
+  }
+}
+
+.cesis_header_shrink.cesis_stuck .header_logo #logo_img img {
+  max-height: 54px !important;
+}
+
+.mobile_logo {
+  max-width: 50px !important;
+}
+
+a[href="http://mundane-fiction.flywheelsites.com/about-keyup/"]:hover {
+  color: #1A1A1E !important;
+}
+
+@media only screen and (min-width:979px) {
+  .main-banner-row {
+    margin-top: 90px;
+  }
+}
+
+/* contact forum on the main page */
+
+.cesis_cf7_ctn.cesis_cf7_transparent input:not([type='submit']):not([type='checkbox']):not([type='radio']):not([type='file']), .cesis_cf7_ctn.cesis_cf7_transparent textarea {
+  background-color: #fff;
+  border: none;
+}
+
+body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-light input.wpcf7-form-control.wpcf7-number, body .monochrome-light input.wpcf7-form-control.wpcf7-quiz, body .monochrome-light input.wpcf7-form-control.wpcf7-text, body .monochrome-light select.wpcf7-form-control.wpcf7-select, body .monochrome-light textarea.wpcf7-form-control.wpcf7-textarea {
+  border: none;
+  margin-bottom: 25px;
+  margin-top: 12px;
+}
+
+#cesis_cf7_illjtxte6rdaerrfvuxm input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]), #cesis_cf7_illjtxte6rdaerrfvuxm textarea, #cesis_cf7_illjtxte6rdaerrfvuxm select, #cesis_cf7_illjtxte6rdaerrfvuxm label {
+  color: #1A1A1E;
+}
+
+.contact-form-homepage textarea {
+  color: #1A1A1E !important;
+}
+
+/* -end contact forum- */
+
+/* –cards on the main page–  */
+
+.cesis_icon_paragraph_ctn {
+  justify-content: center;
+  align-items: center;
+}
+
+.cesis_icon_paragraph_ctn.i_left, .cesis_icon_paragraph_ctn.i_left_on_border {
+  align-items: center;
+}
+
+.cesis_icon_paragraph_image {
+  position: relative;
+  top: -5px;
+  right: -20px;
+}
+
+.cesis_icon_paragraph_image img {
+  width: 30px;
+}
+
+.cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+  position: relative;
+  top: -30px;
+  left: -2px;
+  width: 1.25em;
+}
+
+.cesis_icon_paragraph_image img[alt="briefcase icon"] {
+  position: relative;
+  top: 2.5px;
+  left: -10px;
+  width: 1.25em;
+}
+
+.recommendations .cesis_icon_paragraph_heading {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.recommendations .cesis_icon_paragraph_text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#browse-careers-row .cesis_icon_paragraph_heading {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+#browse-careers-row .cesis_icon_paragraph_text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#get-recs-row {
+  height: 94px;
+}
+
+#browse-careers-row .cards-home {
+  height: 94px;
+}
+
+#get-recs-row span {
+  position: relative;
+  top: -25px;
+}
+
+#browse-careers-row span {
+  position: relative;
+  bottom: -5px;
+}
+
+.card-inner-main-page span {
+  position: relative;
+  left: -25px;
+  margin: 0 auto;
+}
+
+.cards-home:after {
+  font-family: 'tticons' !important;
+  content: "\f105";
+  position: relative;
+  right: -21%;
+  bottom: -35px;
+  font-size: .65em;
+  color: #1A1A1E;
+}
+
+.recommendations, .cards-home:after {
+  font-family: 'tticons' !important;
+  content: "\f105";
+  position: relative;
+  bottom: -8px;
+  color: #1A1A1E;
+}
+
+.cards-home:after {
+  position: absolute;
+  top: 35%;
+  right: 8%;
+}
+
+.recommendations:after {
+  position: absolute;
+  top: 19%;
+  right: 8%;
+}
+
+a[href="http://mundane-fiction.flywheelsites.com/get-reccomendations/"] {
+  margin-right: -1px;
+}
+
+.arrow {
+  position: relative;
+  font-size: 2.5em;
+  color: #1A1A1E;
+}
+
+/* end cards main page */
+
+#cesis_to_top {
+  bottom: 0 !important;
+  margin-bottom: 95px;
+}
+
+.cesis_row_overlay {
+  z-index: 1 !important;
+}
+
+.white {
+  color: white;
+}
+
+.header_main .lines, .header_main .lines:after, .header_main .lines:before {
+  background: white !important;
+  z-index: 9999999999999999999;
+  right: 0 !important;
+}
+
+.cesis_col_shadow .wpb_wrapper {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.header_overlay .tt-header-additional.vertical_additional {
+  padding: 10px 0 0 0;
+}
+
+.top-header {
+  background-color: #4E74FF !important;
+}
+
+.mobile_logo {
+  max-width: 50px !important;
+}
+
+a[href="http://mundane-fiction.flywheelsites.com/about-keyup/"]:hover {
+  color: #1A1A1E !important;
+}
+
+.response-time-text {
+  position: relative;
+  margin-bottom: 25px !important;
+}
+
+/* browse careers main page */
+
+.learn_more_button {
+  position: relative;
+}
+
+.find_training_button {
+  position: relative;
+}
+
+/* hard height */
+
+.cesis_list_text:before {
+  background: url('http://mundane-fiction.flywheelsites.com/wp-content/uploads/2018/07/skills-head.png') no-repeat;
+  content: "\00a0 \00a0\00a0 \00a0 \00a0 \00a0 \00a0 \00a0";
+  position: relative;
+  background-size: 1.25em;
+}
+
+/* end browse careers main page */
+
+/* career page */
+
+.training-icon {
+  font-size: 1.75em;
+}
+
+.cesis_list_heading {
+  margin-bottom: -5px !important;
+}
+
+.pros p:before {
+  background: url('http://mundane-fiction.flywheelsites.com/wp-content/uploads/2018/07/thumbUp.png') no-repeat;
+  content: "\00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0";
+  position: relative;
+  background-size: 1.25em;
+}
+
+.cons p span:before {
+  display: inline-block;
+  background: url('http://mundane-fiction.flywheelsites.com/wp-content/uploads/2018/07/thumbUp.png') no-repeat;
+  content: "\00a0 \00a0 \00a0 \00a0 \00a0 \00a0 \00a0";
+  position: relative;
+  background-size: 1.25em;
+  transform: rotate(180deg);
+  left: -8px;
+}
+
+.bullit-header:before {
+  display: none;
+}
+
+.cons p.bullit-header span:before {
+  display: none !important;
+}
+
+/* end career page */
+
+/* school page */
+
+.school-logo-image img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 20px solid white;
+  background: white;
+}
+
+/* end school page */
+
+.footer_sub span a, .footer_sub span {
+  position: relative;
+  bottom: -20px;
+  color: #FFF;
+}
+
+.footer_sub span a[href="http://www.keyup.org/terms"] {
+  position: relative;
+  top: -28px;
+}
+
+.footer_sub span a[href="http://www.keyup.org/privacy"] {
+  position: relative;
+  top: -1px;
+}
+
+.footer_sub .cesis_social_icons a {
+  position: relative;
+  top: -35px;
+  font-size: 30pt;
+}
+
+/* media queries */
+
+/* Conflict-prone media queries */
+
+@media only screen and (max-width: 768px) {
+  .career-details-image-heading {
+    height: 550px;
+    overflow: visible;
+  }
+  .career-details-image-heading img {
+    position: relative;
+    top: -90px;
+  }
+  .footer_sub .cesis_container {
+    position: relative;
+    align-items: flex-end;
+    flex-direction: row;
+    font-size: 11pt;
+    margin: 0 16px;
+  }
+  .f_text_one {
+    position: relative;
+    top: -1px;
+  }
+  .footer_sub_center .f_text_two {
+    position: relative;
+    top: -46px;
+  }
+  .footer_sub span a[href="http://www.keyup.org/terms"] {
+    position: relative;
+    top: 45px;
+  }
+  .footer_sub span a[href="http://www.keyup.org/privacy"] {
+    top: -16px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .main-banner-text h1 {
+    font-size: 1.8em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.6em !important;
+  }
+  .career-details-image-heading {
+    overflow: visible !important;
+    padding: 0;
+     !important
+  }
+  .career-details-image-heading img {
+    position: relative;
+    top: -88px;
+  }
+  .learn_more_button {
+    top: 0;
+  }
+  .find_training_button {
+    top: -10px !important;
+    right: -80px !important;
+  }
+  .wp-image-10943 {
+    position: relative;
+    right: -8px;
+  }
+}
+
+@media only screen and (width: 767px) {
+  .wp-image-10943 {
+    position: relative;
+    right: -8px;
+  }
+  .share-and-training-row {
+    position: relative;
+    top: -242px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .share-and-training-row .find-training {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .share-and-training-row .find-training .fa-graduation-cap {
+    position: relative;
+    right: -155px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    top: -27px;
+    left: -55px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 43px;
+    right: 2.5% !important;
+  }
+  .find_training_button {
+    top: -18px !important;
+    left: 40.5% !important;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .browse-careers-banner-row {
+    height: 60px;
+  }
+  .browse-careers-banner-button {
+    margin-top: 5px !important;
+  }
+  .browse-careers-header {
+    height: 80px;
+  }
+  .browse-careers-heading {
+    margin-top: 20px !important;
+  }
+  .wpb_text_column.wpb_content_element.cesis_text_transform_none.vc_custom_1531852201444.browse-careers-heading {
+    margin-top: 20px !important;
+  }
+  .career-image-column .vc_column-inner {
+    margin-top: 88px !important;
+  }
+  .footer_sub .cesis_container {
+    position: relative;
+    align-items: flex-end;
+    flex-direction: row;
+    font-size: 11pt;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .cesis_social_icons {
+    position: relative;
+    top: 25px;
+    left: -13%;
+    width: 100%;
+  }
+  .career-image-mobile {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .career-image-mobile img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .browse-careers-banner-row {
+    height: 60px;
+  }
+  .browse-careers-banner-button {
+    margin-top: 5px !important;
+  }
+  .share-and-training-row {
+    position: relative;
+    top: -182px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .share-and-training-row .find-training {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .share-and-training-row .find-training .fa-graduation-cap {
+    position: relative;
+    right: -155px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    top: -27px;
+    left: -55px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .school-row {
+    display: flex;
+  }
+  .school-logo img {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .cesis_social_icons {
+    position: relative;
+    top: 25px;
+    left: -13%;
+    width: 100%;
+  }
+  #get-recs-row {
+    height: 145px;
+  }
+  #browse-careers-row .cards-home {
+    height: 145px;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: 10px;
+    left: -70px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 5px;
+    left: -325px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .45em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 5px !important;
+    left: -189px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 30px !important;
+    left: -47px;
+    font-size: .32em !important;
+    width: 504px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -35px;
+    left: -295px !important;
+    font-size: .45em !important;
+    width: 351px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -52px;
+    left: -295px !important;
+    font-size: .32em !important;
+    width: 470px !important;
+  }
+  .cards-home:after {
+    top: 60px;
+    right: 40px;
+    font-size: 1em;
+  }
+  .recommendations:after {
+    right: 40px;
+    top: 50px;
+    font-size: 1em;
+  }
+}
+
+/* –––––––––––––––––––––––––––– */
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .footer_sub span a[href="http://www.keyup.org/terms"] {
+    position: relative;
+    top: 18px;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -22px;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .30em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    left: -27px;
+    top: -20px !important;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: -10px !important;
+    left: -37px;
+    line-height: 15px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -35px;
+    left: -135px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -40px;
+    left: -135px;
+    line-height: 15px !important;
+  }
+  #browse-careers-row span {
+    bottom: -25px;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -20px !important;
+    left: -10px !important;
+    width: 1.1em;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -122px !important;
+    width: 1.1em;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    font-size: .26em !important;
+    width: 240px !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .26em !important;
+    width: 220px !important;
+  }
+  .cesis_icon_paragraph_text {
+    font-size: .23em !important;
+    width: 200px !important;
+  }
+  /*  browse careers main page  */
+  .learn_more_button {
+    bottom: -45px;
+    left: -5%;
+  }
+  .find_training_button {
+    top: -16px;
+    right: -27%;
+  }
+}
+
+@media only screen and (min-width:300px) and (max-width:324px) {
+  .main-banner-text h1 {
+    position: relative;
+    bottom: -20px;
+    font-size: 1.37em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.1em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -27px;
+    left: -2px !important;
+    width: 1.1em;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -114px !important;
+    width: 1.1em;
+  }
+  .cards-home:after {
+    right: 0px !important;
+    top: 35px;
+  }
+  .recommendations:after {
+    right: -5px;
+    top: 28px;
+  }
+  /*  career page  */
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -98%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -55%;
+    font-size: 2.5em;
+  }
+  .training-icon .cesis_icon_paragraph_heading {
+    position: relative;
+    right: -25px;
+    bottom: -5px;
+  }
+  .career-image-column .vc_column-inner {
+    margin-top: 90px;
+  }
+  .career-details-image-heading {
+    height: 300px;
+  }
+  .career-list .cesis_single_list {
+    margin-bottom: 25px;
+  }
+  .pros-and-cons-column h2 {
+    position: relative;
+    right: -9%;
+  }
+  .bullit-header span {
+    position: relative;
+    left: -7%;
+  }
+  .pros-and-cons-column p {
+    position: relative;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width:300px) and (max-width:309px) {
+  #wpadminbar {
+    width: 100%;
+  }
+  /*  footer for small sizes  */
+  .cesis_social_icons {
+    position: relative;
+    top: 25px;
+    left: -81%;
+    width: 100%;
+  }
+  .footer_sub_left .f_text_one {
+    position: relative;
+    top: 30px;
+    right: -105%;
+  }
+  .footer_sub_center .f_text_two {
+    top: -50px;
+    left: -69%;
+  }
+  .footer_sub_right .f_text_three {
+    position: relative;
+    top: -25px;
+    left: 104%;
+  }
+}
+
+@media only screen and (min-width:310px) and (max-width:317px) {
+  /*  footer for small sizes  */
+  .cesis_social_icons {
+    position: relative;
+    top: 25px;
+    left: -92%;
+    width: 100%;
+  }
+  .footer_sub_left .f_text_one {
+    position: relative;
+    top: 30px;
+    right: -110%;
+  }
+  .footer_sub_center .f_text_two {
+    top: -50px;
+    left: -78%;
+  }
+  .footer_sub_right .f_text_three {
+    position: relative;
+    top: -25px;
+    left: 110%;
+  }
+}
+
+@media only screen and (min-width:318px) and (max-width:324px) {
+  /*  footer for small sizes  */
+  .cesis_social_icons {
+    position: relative;
+    top: 25px;
+    left: -7%;
+    width: 100%;
+  }
+  .footer_sub_left .f_text_one {
+    position: relative;
+    top: -30px;
+    right: -110%;
+  }
+  .footer_sub_center .f_text_two {
+    top: -10px;
+    left: -55%;
+  }
+  .footer_sub_right .f_text_three {
+    position: relative;
+    top: 10px;
+    left: -45%;
+  }
+}
+
+@media only screen and (min-width:325px) and (max-width:338px) {
+  .main-banner-text h1 {
+    position: relative;
+    bottom: -20px;
+    font-size: 1.37em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1em !important;
+  }
+  /*  footer for small sizes  */
+  .cesis_social_icons {
+    position: relative;
+    top: 25px;
+    left: -7%;
+    width: 100%;
+  }
+  .footer_sub_left .f_text_one {
+    position: relative;
+    top: -30px;
+    right: -115%;
+  }
+  .footer_sub_center .f_text_two {
+    top: -10px;
+    left: -55%;
+  }
+  .footer_sub_right .f_text_three {
+    position: relative;
+    top: 9px;
+    left: -47%;
+  }
+  /*  career page  */
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -92%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -52%;
+    font-size: 2.5em;
+  }
+  .training-icon .cesis_icon_paragraph_heading {
+    position: relative;
+    right: -25px;
+    bottom: -5px;
+  }
+  .career-image-column .vc_column-inner {
+    margin-top: 90px;
+  }
+  .career-details-image-heading {
+    height: 300px;
+  }
+  .career-list .cesis_single_list {
+    margin-bottom: 25px;
+  }
+  .pros-and-cons-column h2 {
+    position: relative;
+    right: -9%;
+  }
+  .bullit-header span {
+    position: relative;
+    left: -7%;
+  }
+  .pros-and-cons-column p {
+    position: relative;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width:339px) and (max-width:350px) {
+  .main-banner-text h1 {
+    position: relative;
+    bottom: -20px;
+    font-size: 1.39em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1em !important;
+  }
+  .cards-home:after {
+    right: 5px !important;
+    top: 35px;
+  }
+  .recommendations:after {
+    right: -5px;
+    top: 28px;
+  }
+  /*  footer for small sizes  */
+  .cesis_social_icons {
+    position: relative;
+    top: 25px;
+    left: -12%;
+    width: 100%;
+  }
+  .footer_sub_left .f_text_one {
+    position: relative;
+    top: -30px;
+    right: -125%;
+  }
+  .footer_sub_center .f_text_two {
+    top: -10px;
+    left: -59%;
+  }
+  .footer_sub_right .f_text_three {
+    position: relative;
+    top: 9px;
+    left: -47%;
+  }
+  /*  career page  */
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -90%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -48%;
+    font-size: 2.5em;
+  }
+  .training-icon .cesis_icon_paragraph_heading {
+    position: relative;
+    right: -25px;
+    bottom: -5px;
+  }
+  .career-image-column .vc_column-inner {
+    margin-top: 90px;
+  }
+  .career-details-image-heading {
+    height: 300px;
+  }
+  .career-list .cesis_single_list {
+    margin-bottom: 25px;
+  }
+  .pros-and-cons-column h2 {
+    position: relative;
+    right: -12%;
+  }
+  .bullit-header span {
+    position: relative;
+    left: -6%;
+  }
+  .pros-and-cons-column p {
+    position: relative;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 399px) {
+  .main-banner-text {
+    width: 90%;
+    right: -15px;
+  }
+  .main-banner-text h1 {
+    position: relative;
+    bottom: -10px;
+    font-size: 1.66em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.219em !important;
+  }
+  .footer_sub span a[href="http://www.keyup.org/terms"] {
+    position: relative;
+    top: 118px !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -27px;
+    left: -20px !important;
+    width: 1.1em;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -134px !important;
+    width: 1.1em;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .30em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    left: -35px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: -20px !important;
+    left: -45px;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -30px;
+    left: -145px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -40px;
+    left: -145px;
+  }
+  #browse-careers-row span {
+    bottom: -25px;
+  }
+  .cards-home:after {
+    right: -5px;
+    top: 35px;
+  }
+  .recommendations:after {
+    right: -5px;
+    top: 28px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    font-size: .26em !important;
+    width: 240px !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .26em !important;
+    width: 220px !important;
+  }
+  .cesis_icon_paragraph_text {
+    font-size: .23em !important;
+    width: 200px !important;
+  }
+  .cesis_social_icons {
+    position: relative;
+    top: 25px;
+    left: -13%;
+    width: 100%;
+  }
+  .footer_sub span a[href="http://www.keyup.org/terms"] {
+    position: relative;
+    top: 45px !important;
+  }
+  /*  browse careers page */
+  .learn_more_button {
+    top: 40px;
+    right: -5px !important;
+  }
+  .find_training_button {
+    top: -21px !important;
+    left: 70px !important;
+  }
+  /*  career page  */
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -87%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -47%;
+    font-size: 2.5em;
+  }
+  .training-icon .cesis_icon_paragraph_heading {
+    position: relative;
+    right: -25px;
+    bottom: -5px;
+  }
+  .career-image-column .vc_column-inner {
+    margin-top: 90px;
+  }
+  .career-details-image-heading {
+    height: 355px;
+  }
+  .career-list .cesis_single_list {
+    margin-bottom: 25px;
+  }
+  .pros-and-cons-column h2 {
+    position: relative;
+    right: -12%;
+  }
+  .bullit-header span {
+    position: relative;
+    left: -6%;
+  }
+  .pros-and-cons-column p {
+    position: relative;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 370px) {
+  /*  career page  */
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -82%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -49%;
+    font-size: 2.5em;
+  }
+  .pros-and-cons-column h2 {
+    position: relative;
+    right: -14%;
+  }
+  .bullit-header span {
+    position: relative;
+    left: -5%;
+  }
+}
+
+@media only screen and (min-width: 371px) and (max-width: 380px) {
+  /*  career page  */
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -78%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -46%;
+    font-size: 2.5em;
+  }
+  .pros-and-cons-column h2 {
+    position: relative;
+    right: -16%;
+  }
+  .bullit-header span {
+    position: relative;
+    left: -5%;
+  }
+}
+
+@media only screen and (min-width: 381px) and (max-width: 399px) {
+  /*  career page  */
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -66%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -40%;
+    font-size: 2.5em;
+  }
+  .pros-and-cons-column h2 {
+    position: relative;
+    right: -18%;
+  }
+  .bullit-header span {
+    position: relative;
+    left: -5%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 415px) {
+  .main-banner-text h1 {
+    font-size: 1.69em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.5em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -158px !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -22px !important;
+    left: -40px !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .30em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    left: -41px !important;
+    top: -15px !important;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    left: -40px;
+    top: -15px !important;
+    line-height: 17px !important;
+    width: 230px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -33px;
+    left: -157px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -40px;
+    left: -157px;
+    line-height: 17px !important;
+    width: 230px !important;
+  }
+  #browse-careers-row span {
+    bottom: -25px;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -27px;
+    left: -25px;
+    width: 1.1em;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -138px;
+    width: 1.1em;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    font-size: .26em !important;
+    width: 203px !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .26em !important;
+  }
+  .cesis_icon_paragraph_text {
+    font-size: .23em !important;
+  }
+  .cards-home:after {
+    right: 20px;
+    top: 35px;
+  }
+  .recommendations:after {
+    top: 28px;
+  }
+  .cesis_social_icons {
+    position: relative;
+    top: 25px;
+    left: -13%;
+    width: 100%;
+  }
+  /*  brose careers page  *
+  fix this?
+  .learn_more_button {
+    top: 40px;
+    right: -30px!important;
+  }
+  .find_training_button {
+    top: -21px!important;
+    left: 75px!important;
+  }
+  /*  career page  */
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -60%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -40%;
+    font-size: 2.75em;
+  }
+  .training-icon .cesis_icon_paragraph_heading {
+    position: relative;
+    right: -12%;
+    bottom: -5px;
+  }
+  .career-image-column .vc_column-inner {
+    margin-top: 90px;
+  }
+  .career-details-image-heading {
+    height: 365px;
+  }
+  .career-list .cesis_single_list {
+    margin-bottom: 20px;
+  }
+  .pros-and-cons-column h2 {
+    position: relative;
+    right: -17%;
+  }
+  .bullit-header span {
+    position: relative;
+    left: -5%;
+  }
+  .pros-and-cons-column p {
+    position: relative;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 416px) and (max-width: 432px) {
+  .main-banner-text h1 {
+    font-size: 1.25em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.05em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -28px !important;
+    left: -38px !important;
+    width: 1.25em;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -171px;
+    width: 1.25em;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .30em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    /* top:-20px!important; */
+    left: -40px;
+    font-size: .31em !important;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    left: -39px;
+    font-size: .27em !important;
+    width: 256px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -37px !important;
+    left: -167px;
+    font-size: .31em !important;
+    width: 242px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -50px;
+    left: -167px;
+    font-size: .27em !important;
+    width: 259px !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 10px;
+  }
+  .recommendations:after {
+    right: 10px;
+    top: 27px;
+  }
+  .cesis_social_icons {
+    position: relative;
+    top: 25px;
+    left: -13%;
+    width: 100%;
+  }
+  /*  brose careers page  */
+  .learn_more_button {
+    top: 40px;
+    right: -30px !important;
+  }
+  .find_training_button {
+    top: -21px !important;
+    left: 80px !important;
+  }
+  .share-and-training-row {
+    display: flex;
+  }
+  /*  career page  */
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -48%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -43%;
+    font-size: 2.75em;
+  }
+  .training-icon .cesis_icon_paragraph_heading {
+    position: relative;
+    right: -30%;
+    bottom: -5px;
+  }
+  .training-icon i {
+    position: absolute;
+    right: -390%;
+  }
+  .career-image-column .vc_column-inner {
+    margin-top: 90px;
+  }
+  .career-details-image-heading {
+    height: 505px;
+  }
+  .career-list {
+    position: relative;
+    margin-top: 100px;
+  }
+  .career-list .cesis_single_list {
+    margin-bottom: 5px;
+  }
+  .career-overview .cesis_list_heading {
+    margin-bottom: 15px;
+  }
+  .pros-and-cons-column h2 {
+    position: relative;
+    right: -19%;
+  }
+  .bullit-header span {
+    position: relative;
+    left: -5%;
+  }
+  .pros-and-cons-column p {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  /*  school page do next  */
+  .share-and-training-row {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: 15px;
+  }
+  .career-details-image-heading {
+    margin-bottom: -150px;
+  }
+  .career-overview {
+    top: 0;
+  }
+  .career-list .cesis_list_text {
+    line-height: 40px;
+  }
+  .school-and-training-row {
+    position: relative;
+    display: flex;
+  }
+  .school-and-training-row .advice {
+    position: relative;
+    top: -10px;
+    left: -140px;
+  }
+  .school-and-training-row .apply {
+    position: relative;
+    top: -65px;
+    left: -10px;
+  }
+  .school-and-training-row .share {
+    position: relative;
+    top: -100px;
+    right: -250px;
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 433px) and (max-width: 500px) {
+  .main-banner-text h1 {
+    font-size: 1.53em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.1em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -28px;
+    left: -42px;
+    width: 1.25em;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -170px;
+    width: 1.25em;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .30em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    left: -40px;
+    font-size: .31em !important;
+  }
+  /* maybe everything !important */
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    left: -39px;
+    width: 250px;
+    font-size: .27em !important;
+    width: 256px;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -37px;
+    left: -167px;
+    font-size: .31em !important;
+    width: 242px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -50px;
+    left: -167px;
+    font-size: .27em !important;
+    width: 259px !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 10px;
+  }
+  .recommendations:after {
+    right: 10px;
+    top: 27px;
+  }
+  .cesis_social_icons {
+    position: relative;
+    top: 25px;
+    left: -13%;
+    width: 100%;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 40px;
+    right: -3% !important;
+  }
+  .find_training_button {
+    top: -21px !important;
+    left: 28.5% !important;
+  }
+  /*  career page  */
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -48%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -43%;
+    font-size: 2.75em;
+  }
+  .training-icon .cesis_icon_paragraph_heading {
+    position: relative;
+    right: -30%;
+    bottom: -5px;
+  }
+  .training-icon i {
+    position: absolute;
+    right: -390%;
+  }
+  .career-image-column .vc_column-inner {
+    margin-top: 90px;
+  }
+  .career-details-image-heading {
+    height: 505px;
+  }
+  .career-list {
+    position: relative;
+    margin-top: 100px;
+  }
+  .career-list .cesis_single_list {
+    margin-bottom: 5px;
+  }
+  .career-overview .cesis_list_heading {
+    margin-bottom: 15px;
+  }
+  .pros-and-cons-column h2 {
+    position: relative;
+    right: -20%;
+  }
+  .bullit-header span {
+    position: relative;
+    left: -4%;
+  }
+  .pros-and-cons-column p {
+    position: relative;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width:433px) and (max-width:442px) {
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -39%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -43%;
+    font-size: 2.75em;
+  }
+  .pros-and-cons-column h2 {
+    position: relative;
+    right: -22%;
+  }
+  .bullit-header span {
+    position: relative;
+    left: -5%;
+  }
+}
+
+@media only screen and (min-width:443px) and (max-width:460px) {
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -34%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -41%;
+    font-size: 2.75em;
+  }
+  .pros-and-cons-column h2 {
+    position: relative;
+    right: -23%;
+  }
+  .bullit-header span {
+    position: relative;
+    left: -5.5%;
+  }
+}
+
+@media only screen and (min-width:461px) and (max-width:470px) {
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -23%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -40%;
+    font-size: 2.75em;
+  }
+}
+
+@media only screen and (min-width:471px) and (max-width:480px) {
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -19%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -40%;
+    font-size: 2.75em;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width:499px) {
+  .share-and-training-row .cesis_share_ctn {
+    position: relative;
+    left: -10%;
+    width: 177px;
+  }
+  .training-icon {
+    position: relative;
+    top: -15px;
+    left: -40%;
+    font-size: 2.75em;
+  }
+}
+
+@media only screen and (min-width:460px) and (max-width:500px) {
+  .main-banner-text h1 {
+    font-size: 1.68em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.1em !important;
+  }
+  .pros-and-cons-column h2 {
+    position: relative;
+    right: -25%;
+  }
+  .bullit-header span {
+    position: relative;
+    left: -3%;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 528px) {
+  .main-banner-text h1 {
+    font-size: 1.53em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -28px;
+    left: -45px;
+    width: 1.35em;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -192px;
+    width: 1.35em;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .30em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    left: -59px;
+    font-size: .31em !important;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    left: -24px;
+    font-size: .27em !important;
+    width: 290px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -37px;
+    left: -170px;
+    font-size: .31em !important;
+    width: 242px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -50px;
+    left: -170px;
+    font-size: .27em !important;
+    width: 304px !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 10px;
+  }
+  .recommendations:after {
+    right: 10px;
+    top: 27px;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 40px;
+    right: -2% !important;
+  }
+  .find_training_button {
+    top: -21px !important;
+    left: 29% !important;
+  }
+}
+
+@media only screen and (min-width: 529px) and (max-width: 539px) {
+  .main-banner-text h1 {
+    font-size: 1.6em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.3em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -28px;
+    left: -52px;
+    width: 1.35em;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -200px;
+    width: 1.35em;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .31em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    left: -65px;
+    font-size: .31em !important;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    left: -30px;
+    width: 290px !important;
+    font-size: .27em !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -37px;
+    left: -175px;
+    font-size: .31em !important;
+    width: 242px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -50px;
+    left: -175px;
+    width: 290px !important;
+    font-size: .27em !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 12px;
+  }
+  .recommendations:after {
+    right: 10px;
+    top: 27px;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 40px;
+    right: -1% !important;
+  }
+  .find_training_button {
+    top: -21px !important;
+    left: 31% !important;
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 565px) {
+  .main-banner-text h1 {
+    font-size: 1.82em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.3em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -28px;
+    left: -60px;
+    width: 1.5em;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -208px;
+    width: 1.5em;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .31em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    left: -70px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    left: -35px;
+    width: 290px !important;
+    font-size: .27em !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -37px;
+    left: -180px;
+    font-size: .31em !important;
+    width: 242px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -50px;
+    left: -180px;
+    width: 290px !important;
+    font-size: .27em !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 25px;
+  }
+  .recommendations:after {
+    right: 25px;
+    top: 27px;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 40px;
+    right: 2% !important;
+  }
+  .find_training_button {
+    top: -21px !important;
+    left: 34% !important;
+  }
+}
+
+@media only screen and (min-width: 566px) and (max-width: 599px) {
+  .main-banner-text h1 {
+    font-size: 1.75em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.3em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -28px;
+    left: -50px;
+    width: 1.5em;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -222px;
+    width: 1.5em;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .31em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    left: -85px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    left: -25px;
+    width: 340px !important;
+    font-size: .27em !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -37px;
+    left: -195px;
+    width: 242px !important;
+    font-size: .31em !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -50px;
+    left: -195px;
+    width: 336px !important;
+    font-size: .27em !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 25px;
+  }
+  .recommendations:after {
+    right: 25px;
+    top: 27px;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 41px;
+    right: 2% !important;
+  }
+  .find_training_button {
+    top: -20px !important;
+    left: 36% !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 615px) {
+  .main-banner-text h1 {
+    font-size: 1.8em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.3em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -28px;
+    left: -65px;
+    width: 1.75em;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -238px;
+    width: 1.75em;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .35em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    left: -101px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    left: -40px;
+    font-size: .28em !important;
+    width: 340px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -37px;
+    left: -206px !important;
+    font-size: .35em !important;
+    width: 275px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -50px;
+    left: -206px !important;
+    font-size: .28em !important;
+    width: 350px !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 25px;
+  }
+  .recommendations:after {
+    right: 25px;
+    top: 27px;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 43px;
+    right: 2% !important;
+  }
+  .find_training_button {
+    top: -18px !important;
+    left: 37% !important;
+  }
+}
+
+@media only screen and (min-width: 616px) and (max-width: 636px) {
+  .main-banner-text h1 {
+    font-size: 1.6em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.29em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -28px;
+    left: -70px;
+    width: 1.75em;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -243px;
+    width: 1.75em;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .35em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    left: -101px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    left: -40px;
+    font-size: .28em !important;
+    width: 340px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -37px;
+    left: -206px !important;
+    font-size: .35em !important;
+    width: 275px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -50px;
+    left: -206px !important;
+    font-size: .28em !important;
+    width: 350px !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 25px;
+  }
+  .recommendations:after {
+    right: 25px;
+    top: 27px;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 43px;
+    right: 2% !important;
+  }
+  .find_training_button {
+    top: -18px !important;
+    left: 37.5% !important;
+  }
+}
+
+@media only screen and (min-width: 637px) and (max-width: 699px) {
+  .main-banner-text h1 {
+    font-size: 1.6em !important !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.29em !important !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -28px;
+    left: -85px;
+    width: 1.95em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -258px;
+    width: 1.95em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .35em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    left: -111px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    left: -50px;
+    font-size: .28em !important;
+    width: 340px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -37px;
+    left: -216px !important;
+    font-size: .35em !important;
+    width: 275px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -50px;
+    left: -216px !important;
+    font-size: .28em !important;
+    width: 350px !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 25px;
+  }
+  .recommendations:after {
+    right: 25px;
+    top: 27px;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 43px;
+    right: 2.5% !important;
+  }
+  .find_training_button {
+    top: -18px !important;
+    left: 39.5% !important;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 710px) {
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -28px;
+    left: -105px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    left: -278px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .35em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    left: -96px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    left: -35px;
+    font-size: .28em !important;
+    width: 340px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -37px;
+    left: -205px !important;
+    font-size: .35em !important;
+    width: 275px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -50px;
+    left: -205px !important;
+    font-size: .28em !important;
+    width: 350px !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 35px;
+  }
+  .recommendations:after {
+    right: 35px;
+    top: 27px;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 43px;
+    right: 2.5% !important;
+  }
+  .find_training_button {
+    top: -18px !important;
+    left: 39.5% !important;
+  }
+}
+
+@media only screen and (min-width: 711px) and (max-width: 730px) {
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -15px;
+    left: -65px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 3px;
+    left: -288px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .35em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -10px !important;
+    left: -151px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: -10px !important;
+    left: -40px;
+    font-size: .28em !important;
+    width: 441px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -25px;
+    left: -258px !important;
+    font-size: .35em !important;
+    width: 275px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -37px;
+    left: -258px !important;
+    font-size: .28em !important;
+    width: 411px !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 35px;
+  }
+  .recommendations:after {
+    right: 35px;
+    top: 27px;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 43px;
+    right: 2.5% !important;
+  }
+  .find_training_button {
+    top: -18px !important;
+    left: 39.75% !important;
+  }
+}
+
+@media only screen and (min-width: 731px) and (max-width: 739px) {
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -15px;
+    left: -66px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 3px;
+    left: -288px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .35em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -10px !important;
+    left: -151px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: -10px !important;
+    left: -40px;
+    font-size: .28em !important;
+    width: 441px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -25px;
+    left: -258px !important;
+    font-size: .35em !important;
+    width: 275px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -37px;
+    left: -258px !important;
+    font-size: .28em !important;
+    width: 411px !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 35px;
+  }
+  .recommendations:after {
+    right: 35px;
+    top: 27px;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 43px;
+    right: 2.5% !important;
+  }
+  .find_training_button {
+    top: -18px !important;
+    left: 40% !important;
+  }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 750px) {
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -15px;
+    left: -65px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 3px;
+    left: -288px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .35em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -10px !important;
+    left: -150px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: -10px !important;
+    left: -39px;
+    font-size: .28em !important;
+    width: 441px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -25px;
+    left: -259px !important;
+    font-size: .35em !important;
+    width: 275px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -37px;
+    left: -259px !important;
+    font-size: .28em !important;
+    width: 411px !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 35px;
+  }
+  .recommendations:after {
+    right: 35px;
+    top: 27px;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 43px;
+    right: 2.5% !important;
+  }
+  .find_training_button {
+    top: -18px !important;
+    left: 40.25% !important;
+  }
+}
+
+@media only screen and (min-width: 751px) and (max-width:761px) {
+  .main-banner-text h1 {
+    font-size: 1.6em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.29em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -15px;
+    left: -75px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 3px;
+    left: -298px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .35em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -10px !important;
+    left: -141px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: -10px !important;
+    left: -30px;
+    font-size: .28em !important;
+    width: 441px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -25px;
+    left: -250px !important;
+    font-size: .35em !important;
+    width: 275px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -37px;
+    left: -250px !important;
+    font-size: .28em !important;
+    width: 411px !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 40px;
+  }
+  .recommendations:after {
+    right: 40px;
+    top: 27px;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 43px;
+    right: 2.5% !important;
+  }
+  .find_training_button {
+    top: -18px !important;
+    left: 40.5% !important;
+  }
+}
+
+@media only screen and (min-width: 762px) and (max-width:767px) {
+  .main-banner-text h1 {
+    font-size: 1.6em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.27em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: -15px;
+    left: -75px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 3px;
+    left: -299px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .35em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -10px !important;
+    left: -141px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: -10px !important;
+    left: -30px;
+    font-size: .28em !important;
+    width: 441px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -25px;
+    left: -251px !important;
+    font-size: .35em !important;
+    width: 275px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -37px;
+    left: -251px !important;
+    font-size: .28em !important;
+    width: 411px !important;
+  }
+  .cards-home:after {
+    top: 35px;
+    right: 40px;
+  }
+  .recommendations:after {
+    right: 40px;
+    top: 27px;
+  }
+  /*  browse careers page  */
+  .learn_more_button {
+    top: 43px;
+    right: 2.5% !important;
+  }
+  .find_training_button {
+    top: -18px !important;
+    left: 40.5% !important;
+  }
+}
+
+@media only screen and (min-width:769px) and (max-width:978px) {
+  .browse-careers-banner-row {
+    height: 60px;
+  }
+  .browse-careers-banner-button {
+    margin-top: 5px !important;
+  }
+}
+
+@media only screen and (min-width: 772px) and (max-width:781px) {
+  #get-recs-row {
+    height: 145px;
+  }
+  #browse-careers-row .cards-home {
+    height: 145px;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: 10px;
+    left: -65px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 2px;
+    left: -320px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .45em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 5px !important;
+    left: -177px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 25px !important;
+    left: -35px;
+    font-size: .32em !important;
+    width: 504px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -40px;
+    left: -280px !important;
+    font-size: .45em !important;
+    width: 351px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -47px;
+    left: -280px !important;
+    font-size: .32em !important;
+    width: 470px !important;
+  }
+  .cards-home:after {
+    top: 55px;
+    right: 10px;
+    font-size: 1em;
+  }
+  .recommendations:after {
+    right: 10px;
+    top: 55px;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 782px) and (max-width:794px) {
+  #get-recs-row {
+    height: 145px;
+  }
+  #browse-careers-row .cards-home {
+    height: 145px;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: 10px;
+    left: -65px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 2px;
+    left: -317px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .45em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 10px !important;
+    left: -172px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 30px !important;
+    left: -30px;
+    font-size: .32em !important;
+    width: 504px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -35px;
+    left: -280px !important;
+    font-size: .45em !important;
+    width: 351px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -47px;
+    left: -280px !important;
+    font-size: .32em !important;
+    width: 470px !important;
+  }
+  .cards-home:after {
+    top: 55px;
+    right: 40px;
+  }
+  .recommendations:after {
+    right: 40px;
+    top: 55px;
+  }
+}
+
+@media only screen and (min-width: 795px) {
+  .main-banner-text h1 {
+    font-size: 1.6em !important;
+  }
+  main-banner-text h3 {
+    font-size: 1.4em !important;
+  }
+  #get-recs-row {
+    height: 145px;
+  }
+  #browse-careers-row .cards-home {
+    height: 145px;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: 20px;
+    left: -45px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 2px;
+    left: -312px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .45em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 15px !important;
+    left: -180px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 40px !important;
+    left: -38px;
+    font-size: .32em !important;
+    width: 504px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -25px;
+    left: -290px !important;
+    font-size: .45em !important;
+    width: 351px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -35px;
+    left: -290px !important;
+    font-size: .32em !important;
+    width: 470px !important;
+  }
+  .cards-home:after {
+    top: 60px;
+    right: 40px;
+  }
+  .recommendations:after {
+    right: 40px;
+    top: 55px;
+  }
+  a[href="http://mundane-fiction.flywheelsites.com/get-reccomendations/"] {
+    position: relative;
+    top: -10px;
+    left: -23px;
+    padding: 20px;
+  }
+  a[href="http://mundane-fiction.flywheelsites.com/browse-careers/"] {
+    margin-right: 1px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width:891px) {
+  .main-banner-text h1 {
+    font-size: 1.65em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.4em !important;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .main-banner-text h1 {
+    font-size: 1.75em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.3em !important;
+  }
+  #get-recs-row {
+    height: 145px;
+  }
+  #browse-careers-row .cards-home {
+    height: 145px;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: 20px;
+    left: -83px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 2px;
+    left: -339px;
+    width: 2em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .45em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 20px !important;
+    left: -180px;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 41px !important;
+    left: -38px;
+    font-size: .32em !important;
+    width: 504px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 0;
+    left: -285px !important;
+    font-size: .45em !important;
+    width: 351px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 45px;
+    left: -285px !important;
+    font-size: .32em !important;
+    width: 470px !important;
+  }
+  .cards-home:after {
+    top: 60px;
+    right: 40px;
+  }
+  .recommendations:after {
+    right: 40px;
+    top: 55px;
+  }
+  a[href="http://mundane-fiction.flywheelsites.com/get-reccomendations/"] {
+    position: relative;
+    left: -23px;
+    padding: 20px;
+  }
+  a[href="http://mundane-fiction.flywheelsites.com/browse-careers/"] {
+    position: relative;
+    left: -10px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width:929px) {
+  #get-recs-row {
+    height: 145px;
+  }
+  #browse-careers-row .cards-home {
+    height: 145px;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: 7px;
+    left: -115px;
+    max-width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 2px;
+    left: -375px;
+    max-width: 2em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .55em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 10px !important;
+    left: -139px;
+    width: 267px !important;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 25px !important;
+    left: -0px;
+    font-size: .42em !important;
+    width: 544px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -5px;
+    left: -248px !important;
+    font-size: .55em !important;
+    width: 429px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 35px;
+    left: -248px !important;
+    font-size: .42em !important;
+    width: 522px !important;
+  }
+  .cards-home:after {
+    top: 60px;
+    right: 40px;
+  }
+  .recommendations:after {
+    right: 40px;
+    top: 55px;
+  }
+  a[href="http://mundane-fiction.flywheelsites.com/get-reccomendations/"] {
+    position: relative;
+    left: -5px;
+    padding: 20px;
+  }
+  a[href="http://mundane-fiction.flywheelsites.com/browse-careers/"] {
+    position: relative;
+    left: -10px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width:1123px) {
+  .main-banner-text h1 {
+    font-size: 1.93em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.35em !important;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .main-banner-text h1 {
+    font-size: 2.05em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.5em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: 10px;
+    left: -151px;
+    max-width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 2px;
+    left: -467px;
+    max-width: 2em !important;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .55em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 10px !important;
+    left: -240px;
+    width: 267px !important;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 30px !important;
+    left: -42px;
+    font-size: .42em !important;
+    width: 661px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 5px;
+    left: -349px !important;
+    font-size: .55em !important;
+    width: 429px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 50px;
+    left: -349px !important;
+    font-size: .42em !important;
+    width: 617px !important;
+  }
+  .cards-home:after {
+    top: 60px;
+    right: 65px;
+  }
+  .recommendations:after {
+    right: 65px;
+    top: 55px;
+  }
+}
+
+@media only screen and (min-width:1195px) {
+  .main-banner-text h1 {
+    font-size: 2.1em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.6em !important;
+  }
+}
+
+@media only screen and (min-width: 1244px) {
+  .main-banner-text h1 {
+    font-size: 2.15em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.65em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: 10px;
+    left: -200px;
+    max-width: 200%;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 2px;
+    left: -518px;
+    max-width: 200%;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .55em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 5px !important;
+    left: -225px !important;
+    width: 267px !important;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 35px !important;
+    left: -28px;
+    font-size: .42em !important;
+    width: 661px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -5px;
+    left: -335px !important;
+    font-size: .55em !important;
+    width: 429px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    bottom: -35px;
+    left: -335px !important;
+    font-size: .42em !important;
+    width: 617px !important;
+  }
+  .cards-home:after {
+    top: 60px;
+    right: 70px;
+  }
+  .recommendations:after {
+    right: 65px;
+    top: 55px;
+  }
+  #browse-careers-row {
+    width: 99.75% !important;
+  }
+}
+
+@media only screen and (min-width: 1330px) {
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: 10px;
+    left: -200px;
+    max-width: 200%;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 2px;
+    left: -518px;
+    max-width: 200%;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .55em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 5px !important;
+    left: -223px !important;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 35px !important;
+    left: -26px;
+    font-size: .42em !important;
+    width: 661px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: -5px;
+    left: -330px !important;
+    font-size: .55em !important;
+    width: 429px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 50px;
+    left: -330px !important;
+    font-size: .42em !important;
+    width: 617px !important;
+  }
+  .cards-home:after {
+    top: 60px;
+    right: 70px;
+  }
+  .recommendations:after {
+    right: 65px;
+    top: 55px;
+  }
+  #browse-careers-row {
+    width: 99.75% !important;
+  }
+}
+
+@media only screen and (min-width: 1405px) {
+  .main-banner-text h1 {
+    font-size: 2.15em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.69em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: 10px;
+    left: -195px;
+    max-width: 200%;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 2px;
+    left: -515px;
+    max-width: 200%;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .55em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 5px !important;
+    left: -270px !important;
+    width: 267px !important;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 30px !important;
+    left: -72px;
+    font-size: .42em !important;
+    width: 661px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 0;
+    left: -380px !important;
+    font-size: .55em !important;
+    width: 429px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 50px;
+    left: -380px !important;
+    font-size: .42em !important;
+    width: 617px !important;
+  }
+  .cards-home:after {
+    top: 60px;
+    right: 70px;
+  }
+  .recommendations:after {
+    right: 65px;
+    top: 55px;
+  }
+  #browse-careers-row {
+    width: 99.81% !important;
+  }
+}
+
+@media only screen and (min-width: 1444px) {
+  .main-banner-text h1 {
+    font-size: 2.5em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 1.6em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="Get Recommendations Icon"] {
+    position: relative;
+    top: 10px;
+    left: -195px;
+    max-width: 2em !important;
+  }
+  .cesis_icon_paragraph_image img[alt="briefcase icon"] {
+    position: relative;
+    top: 2px;
+    left: -513px;
+    max-width: 2em;
+  }
+  .cesis_icon_paragraph_heading {
+    font-size: .55em !important;
+    width: 100%;
+  }
+  .recommendations .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 5px !important;
+    left: -240px !important;
+    width: 267px !important;
+  }
+  .recommendations .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 35px !important;
+    left: -43px;
+    font-size: .42em !important;
+    width: 661px !important;
+  }
+  .cesis_icon_paragraph_text_ctn {
+    position: relative;
+    right: -7px;
+  }
+  #browse-careers-row .cesis_icon_paragraph_heading {
+    position: absolute;
+    top: 0;
+    left: -350px !important;
+    font-size: .55em !important;
+    width: 429px !important;
+  }
+  #browse-careers-row .cesis_icon_paragraph_text {
+    position: absolute;
+    top: 53px;
+    left: -350px !important;
+    font-size: .42em !important;
+    width: 617px !important;
+  }
+  .cards-home:after {
+    top: 60px;
+    right: 70px;
+  }
+  .recommendations:after {
+    right: 65px;
+    top: 55px;
+  }
+  #browse-careers-row {
+    width: 99.8% !important;
+  }
+}
+
+@media only screen and (min-width:2560px) {
+  .main-banner-text h1 {
+    font-size: 3em !important;
+  }
+  .main-banner-text h3 {
+    font-size: 2.2em !important;
+  }
+}
+
+/* end media queries */
